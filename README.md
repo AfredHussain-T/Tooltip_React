@@ -1,3 +1,10 @@
+# About Application
+
+* Used react for building this application.
+* Hovering on the button will pop up a tooltip over it.
+* We can specify the direction of the tool tip by selecting it from the drop down of the direction.
+* We can provide the input to be popped out when we hover on the button.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
