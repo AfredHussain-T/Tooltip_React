@@ -2,40 +2,6 @@ import React, { Component } from "react";
 import "../tooltip.css";
 
 
-// function Tooltip() {
-//   const [direction, setDirection] = useState('my-tooltiptext t-top');
-//   const [content, setContent] = useState('Hover Content');
-
-
-//   //  function to change values if data change
-//   const hanldeTooltip = () => {
-//     // setting content
-//     setContent(content);
-
-//     // setting up direction according to direction
-//     if (direction === "top") {
-//       setDirection("my-tooltiptext t-top");
-//     } else if (direction === "right") {
-//       setDirection("my-tooltiptext t-right");
-//     } else if (direction === "left") {
-//       setDirection("my-tooltiptext t-left")
-//     } else {
-//       setDirection("my-tooltiptext t-bottom")
-//     }
-//   }
-//   return (
-//     // div for bidning componet for tooltip
-//     <div className="my-tooltip" onMouseEnter={hanldeTooltip}>
-//       {/* span for tooltip text */}
-//       <span className={direction}>{content}</span>
-//       {/* componet fetching from where is called */}
-//       {/* {props.children} */}
-//     </div>
-//   );
-
-// }
-// export default Tooltip;
-
 export default class Tooltip extends Component {
   // constructor to create state for this class
   constructor() {
